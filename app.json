@@ -1,0 +1,26 @@
+{
+    "name": "Play-store-bot",
+    "logo": "https://telegra.ph//file/77bb74c96ed3c7eff2c9b.jpg",
+    "repository": "https://github.com/knbro/Play-Store-Bot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
