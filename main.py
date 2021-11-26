@@ -41,7 +41,7 @@ async def search(bot, update):
     answers = []
     for result in results:
         details = "**Title:** `{}`".format(result["title"]) \
-        "**Description:** `{}`".format(result["description"]) + \n \
+        "**Description:** `{}`".format(result["description"])  \n 
         "**App ID:** `{}`".format(result["app_id"]) + "\n" \
         "**Developer:** `{}`".format(result["developer"]) + "\n" \
         "**Developer ID:** `{}`".format(result["developer_id"]) + "\n" \
